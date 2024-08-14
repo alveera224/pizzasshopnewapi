@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('menu.urls')),  # This line connects your app's urls.py
+    path('api/', include('menu.potty')),  # This line connects your app's urls.py
 ]
 
